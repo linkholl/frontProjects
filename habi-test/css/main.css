@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #100F14;
+    height: 4000px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+button {
+    background: #806CF5;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+button span {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/** Intro Block **/
+
+.intro {
+    height: 100vh;
+    background-image: url("../images/pattern.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro__btn {
+    margin: 0 auto;
+}
+
+.intro__block {
+    width: 570px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.intro__title {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.intro_subtitle {
+    font-weight: 600;
+    color: #9592A3;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    margin: 0 auto 32px;
+    width: 448px;
+}
+
+/** Support Block **/
+
+.support, .viewer {
+    margin-top: 124px;
+}
+
+.support__block, .viewer__block {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 16px;
+}
+
+.support__block img, .viewer__img img {
+    width: 100%;
+    height: auto;
+}
+
+.support__skins, .support__chat, .viewer__3d, .viewer__wiki {
+    background-color: #1C1A24;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.support__chat, .viewer__wiki {
+    margin-top: 160px;
+}
+
+
+.support__title, .viewer__title {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: 12px;
+    padding: 48px 40px 0;
+}
+
+.support__subtitle, .viewer__subtitle {
+    font-weight: 600;
+    color: #9592A3;
+    font-size: 18px;
+    line-height: 150%;
+    padding: 0 40px 0;
+    margin-bottom: 48px;
+    width: 440px;
+}
+
+/** Trade Block **/
+
+.trade, .market {
+    padding-top: 96px;
+}
+
+.trade__icon, .market__icon {
+    margin-bottom: 24px;
+}
+
+.trade__title, .market__title {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin-bottom: 56px;
+    max-width: 798px;
+}
+
+.trade__block, .market__block {
+    display: flex;
+    column-gap: 20px;
+}
+
+.trade__image, .market__image {
+    flex-grow: 1;
+}
+
+.trade__image img, .market__image img {
+    width: 100%;
+}
+
+.trade__advantages, .market__advantages {
+    max-width: 390px;
+    padding-right: 75px;
+    margin-top: 70px;
+}
+
+.trade__advantages_item, .market__advantages__item {
+    list-style-type: none;
+    color: #817E8F;
+    border-top: 1px solid #312F3D;
+    padding: 24px 0;
+}
+
+.trade__advantages__title, .market__advantages__title {
+    color: #FFFFFF;
+    font-size: 21px;
+    line-height: 140%;
+    margin-bottom: 8px;
+
+}
+
+.trade__subtitle, .market__subtitle {
+    color: #BBB9C7;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.market__image {
+    width: 766px;
+}
+
+/*3d and wiki */
+
+.viewer__btn {
+    margin-left: 40px;
+    margin-bottom: 72px;
+}
+
+.viewer__subtitle {
+    margin-bottom: 24px;
+}
+
+.viewer__img {
+    display: flex;
+    padding-left: 80px;
+    justify-content: flex-end;
+}
+
+/** Footer **/
+
+.footer {
+    margin-top: 152px;
+    padding-bottom: 44px;
+}
+
+.footer__container {
+    max-width: 1416px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 60px;
+}
+
+.footer__menu {
+
+}
+
+.footer__title {
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.footer__list {
+    margin-top: 12px;
+}
+
+.footer__item {
+    display: block;
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+.footer__item a{
+    font-size: 13px;
+    color: #817E8F;
+    line-height: 20px;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.footer__link {
+    margin-top: 12px;
+    background: #312F3D;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px;
+    column-gap: 12px;
+}
+
+
+
+
+.footer__link img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer__text{
+    font-size: 13px;
+    color: #817E8F;
+    line-height: 20px;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+}
